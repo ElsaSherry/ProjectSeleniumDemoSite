@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testClasses.PatientDetailsTests">
+        <methods>
+          <include name="verifyNavigationToFindPatientRecordPage"/>
+          <include name="verifySearchFunctionality"/>
+          <include name="testFindPatientPartialName"/>
+          <include name="testFindPatientCaseInsensitive"/>
+          <include name="afterMethod"/>
+          <include name="testFindPatientAndVerifyAge"/>
+          <include name="beforeMethod"/>
+          <include name="testFindPatientByIdentifier"/>
+          <include name="testFindPatientAndVerifyGender"/>
+          <include name="testFindPatientByName"/>
+        </methods>
+      </class> <!-- testClasses.PatientDetailsTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
